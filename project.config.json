@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.94",
 	"appid": "wxd6da6f4f16cd9edd",
-	"projectname": "%E8%A1%8C%E7%A8%8B%E8%A7%84%E5%88%92%E5%BD%95",
+	"projectname": "trip-planning",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
