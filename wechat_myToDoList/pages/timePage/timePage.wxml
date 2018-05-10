@@ -1,0 +1,6 @@
+<!--timePage-->
+<view class='container'>
+  <view class='timeSet'>
+    设置时间
+  </view>
+</view>

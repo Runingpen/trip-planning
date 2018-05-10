@@ -1,0 +1,7 @@
+<!--finishPage-->
+<view class='container'>
+  <button>已完成</button>
+  <view class='clear_all'>
+    <icon type='clear'></icon>
+  </view>
+</view>

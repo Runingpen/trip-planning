@@ -1,8 +1,54 @@
 <!--addPage.wxml-->
 <view class = "container">
-  <button></button>
   <text>主题：</text>
   <input class = "input" name = "title" placeholder="请输入主题" ></input>
   <text>内容：</text>
   <textarea placeholder="请输入内容"></textarea>
+
+  <view class="beginning_time">
+    开始时间：
+    <view class="time_selection">
+      <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange">
+        <view class="picker">
+          {{time}}
+        </view>
+      </picker>
+    </view> 
+
+    <view class="date_selection">
+      <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+        <view class="picker">
+          {{date}}
+        </view>
+      </picker>
+    </view>
+  </view>
+
+  <view class="ending_time">
+    截止时间：
+    <view class="time_selection">
+      <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange">
+        <view class="picker">
+          {{time}}
+        </view>
+      </picker>
+    </view> 
+
+    <view class="date_selection">
+      <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+        <view class="picker">
+          {{date}}
+        </view>
+      </picker>
+    </view>
+  </view>
+
+  <view class="section__title">
+    提醒方式：
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view class="picker">
+        {{array[index]}}
+      </view>
+    </picker>
+  </view>
 </view>

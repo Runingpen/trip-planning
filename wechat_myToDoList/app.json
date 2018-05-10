@@ -2,7 +2,9 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/addPage/addPage"
+    "pages/addPage/addPage",
+    "pages/finishPage/finishPage",
+    "pages/exportPage/exportPage"
   ],
 
   "tabBar": {
@@ -17,9 +19,15 @@
         "text": "首页"
       },
       {
+        "selectedIconPath": "images/完成.png",
+        "iconPath": "images/完成.png",
+        "pagePath": "pages/finishPage/finishPage",
+        "text": "已完成"
+      },
+      {
         "selectedIconPath": "images/导出.png",
         "iconPath": "images/导出.png",
-        "pagePath": "pages/addPage/addPage",
+        "pagePath": "pages/exportPage/exportPage",
         "text": "导出备忘录"
       }
     ]
