@@ -1,0 +1,8 @@
+<!--addPage.wxml-->
+<view class = "container">
+  <button></button>
+  <text>主题：</text>
+  <input class = "input" name = "title" placeholder="请输入主题" ></input>
+  <text>内容：</text>
+  <textarea placeholder="请输入内容"></textarea>
+</view>
