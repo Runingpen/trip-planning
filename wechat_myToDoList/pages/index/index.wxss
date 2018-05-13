@@ -1,21 +1,27 @@
 /**index.wxss**/
-.userinfo {
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  background-color: #f0fff0;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.header{
+  width: 100%;
+  background-color: #f5f5dc;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.title{
+  /* position: fixed; */
+  /* left: 3%; */
+  font-family: "黑体";
+  font-size: 90rpx;
+   /* background-color: #f00;  */
 }
 
-.usermotto {
-  margin-top: 200px;
+.addButton{
+  position: fixed;
+  top: 3px;
+  right: 3%;
+  /* background-color: #ff0;  */
 }

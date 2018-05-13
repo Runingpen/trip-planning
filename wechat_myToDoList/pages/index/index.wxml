@@ -1,12 +1,15 @@
 
 <!--index.wxml-->
 <view class="container">
-  <view class = "title">
-    备忘录
+  <view class="header">
+    <view class = "title">
+      <text>备忘</text>
+    </view>
+      
+    <view class="addButton">
+        <navigator url="../addPage/addPage"> 
+          <icon type= "success" size="50"   color="green"></icon>
+        </navigator>
+    </view>
   </view>
-    
-  <view class="add">
-    <navigator url="../addPage/addPage"> <icon type= "success" size="50" color="green"></icon></navigator>
-  </view>
-
 </view> 

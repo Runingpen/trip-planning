@@ -3,11 +3,12 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/addPage/addPage",
-    "pages/finishPage/finishPage",
+    "pages/pastPage/pastPage",
     "pages/exportPage/exportPage"
   ],
 
   "tabBar": {
+    "backgroundColor": "#ffffffff",
     "color": "#a9b7b7",
     "selectedColor": "#11cd6e",
     "borderStyle": "white",
@@ -21,8 +22,8 @@
       {
         "selectedIconPath": "images/完成.png",
         "iconPath": "images/完成.png",
-        "pagePath": "pages/finishPage/finishPage",
-        "text": "已完成"
+        "pagePath": "pages/pastPage/pastPage",
+        "text": "过去的任务"
       },
       {
         "selectedIconPath": "images/导出.png",
@@ -36,7 +37,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "备忘录",
     "navigationBarTextStyle":"black"
   }
 }
